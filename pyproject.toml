@@ -1,0 +1,22 @@
+[project]
+name = "chat-prot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "fastmcp>=2.2.5",
+    "langchain>=0.3.24",
+    "langchain-community>=0.3.22",
+    "langchain-groq>=0.3.2",
+    "langchain-mcp-adapters>=0.0.9",
+    "langchain-openai>=0.3.14",
+    "langgraph>=0.3.34",
+    "logging>=0.4.9.6",
+    "mcp>=1.6.0",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "streamlit>=1.44.1",
+    "uvicorn>=0.34.2",
+]
